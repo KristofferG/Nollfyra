@@ -9,7 +9,8 @@ import { LoadingController } from 'ionic-angular';
   templateUrl: 'home.html'
 })
 export class HomePage {
-  constructor(public loader: LoadingController, public navCtrl: NavController, public http: Http, ) {
+  aqi: any;
+  constructor(public loader: LoadingController, public navCtrl: NavController, public http: Http) {
     this.http = http;
     this.loader = loader;
     this.aqi = { data: {} };
