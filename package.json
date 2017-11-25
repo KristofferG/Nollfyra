@@ -4,6 +4,9 @@
   "author": "Ionic Framework",
   "homepage": "http://ionicframework.com/",
   "private": true,
+  "engines": {
+    "node": "8.4.0"
+  },
   "scripts": {
     "prestart": "next build",
     "start": "next start -p ${PORT}",
