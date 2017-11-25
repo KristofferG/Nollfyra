@@ -23,12 +23,16 @@ page-home {
   .pollution-sign:before {
     font-size: 30px;
   }
+  .knapp {
+    padding-top: 15px;
+  }
 
   .pollution-time {
     font-size: 15px;
     letter-spacing: 4px;
     font-weight: 600;
-    padding-top: 10px;
+    padding-top: 2px;
+    text-transform: uppercase;
   }
 
   .pollution-value {
@@ -120,7 +124,7 @@ page-home {
     bottom: 0;
     letter-spacing: 1px;
     text-transform: uppercase;
-    max-width: 50%;
+    max-width: 85%;
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
@@ -156,11 +160,11 @@ page-home {
   }
 
   .pollution-back.mod {
-    background: #F2994A;
+    background: #63dd59;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #F2C94C, #F2994A);
+    background: -webkit-linear-gradient(to right, #5bf14e, #63dd59);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #F2C94C, #F2994A);
+    background: linear-gradient(to right, #5bf14e, #63dd59);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: 400% 400%;
   }
